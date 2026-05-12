@@ -1,9 +1,7 @@
 <div align="center">
   <br />
-    <img src="./assets/images/volo.png" alt="Volo Logo" width="100"/>
+    <img src="./volo.svg" alt="Volo Logo" width="100"/>
   <br />
-
-  <h1>Volo</h1>
 
   <p>
     <strong>Minimalist task management and focus tracking.</strong>
