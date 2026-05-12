@@ -1,6 +1,6 @@
 <div align="center">
   <br />
-    <img src="./volo.svg" alt="Volo Logo" width="100"/>
+    <img src="./volo.svg" alt="Volo Logo" width="600"/>
   <br />
 
   <p>
