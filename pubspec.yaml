@@ -1,0 +1,98 @@
+name: volo
+description: A productivity timer app built with Flutter.
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=3.2.0 <4.0.0"
+  flutter: ">=3.16.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # State management
+  flutter_riverpod: ^2.5.1
+  riverpod_annotation: ^2.3.5
+
+  # Navigation
+  go_router: ^13.2.4
+
+  # Local storage
+  shared_preferences: ^2.2.3
+  drift: ^2.18.0
+  drift_flutter: ^0.2.1
+  sqlite3_flutter_libs: ^0.5.24
+
+  # Animations
+  flutter_animate: ^4.5.0
+  lottie: ^3.1.2
+
+  # Charts
+  fl_chart: ^0.68.0
+
+  # Localization
+  easy_localization: ^3.0.7
+
+  # Bottom sheet
+  modal_bottom_sheet: ^3.0.0
+
+  # In-app purchase (Pro features)
+  in_app_purchase: ^3.1.13
+
+  # Keep screen on
+  wakelock_plus: ^1.3.0
+
+  # Local notifications
+  flutter_local_notifications: ^17.2.2
+
+  # Theme animation
+  animated_theme_switcher: ^2.0.10
+
+  # Misc
+  intl: 0.20.2
+  uuid: ^4.4.0
+  collection: ^1.18.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.11
+  drift_dev: ^2.18.0
+  riverpod_generator: ^2.4.3
+  flutter_launcher_icons: ^0.14.1
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/pomodo.png"
+  web:
+    generate: true
+    image_path: "assets/images/pomodo.png"
+  windows:
+    generate: true
+    image_path: "assets/images/pomodo.png"
+  macos:
+    generate: true
+    image_path: "assets/images/pomodo.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/animations/
+    - assets/translations/
+    - assets/images/
+  fonts:
+    - family: Outfit
+      fonts:
+        - asset: assets/fonts/Outfit-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Outfit-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Outfit-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Outfit-Bold.ttf
+          weight: 700
